@@ -1,0 +1,9 @@
+// Overwrite the default variable
+$font-family: "Nunito";
+
+.v-application {
+    [class*="text-"] {
+        font-family: $font-family, sans-serif !important;
+    }
+    font-family: $font-family, sans-serif !important;
+}
